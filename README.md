@@ -1,2 +1,2 @@
 # javascript-exercises
-Ejercicios con javascript por ejemplo: verificar si es mayor de edad para hacer sufragio.
+Ejercicios con javascript if else - else if - else
