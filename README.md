@@ -1,2 +1,2 @@
 # javascript-exercises
-Ejercicios con javascript if else - else if - else
+Ejercicios con javascript if  - else if - else
