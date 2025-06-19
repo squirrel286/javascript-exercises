@@ -1,11 +1,11 @@
 # Condiciones IF-ELSE
 
-**Autor**: donovansaez@liceovvh.cl
+**Autor**: randycortinez@liceovvh.cl
 
-Donovan Sáez
+Randy Cortinez
 
 ## Descripción
-Haremos 10 distintos ejercicios para aprender a usar la condición IF-ELSE / IF - ELSE IF - ELSE.
+10 ejercicios distintos ocupando if else - else if - else
 
 ## Importante
 Si deseas apoyarme contáctame.
