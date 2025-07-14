@@ -3,16 +3,16 @@ console.log("Conexión con js establecida...");
 
 // Ejercicio 1
 /* Edad para votar
- Solicita la edad del usuario mediante prompt().
- Muestra con alert() si puede votar (18 años o más) o no. */
+ Solicita la edad del usuario mediante un prompt().
+ Muestra con alert() si puede votar o no. */
 
 function edadVotar() {
-    // Input conversión string a número
+    // Conversión string a número entero.
     let edad = parseInt(prompt("Ingrese su edad: "));
     // Condición IF - ELSE IF - ELSE
     if (edad >= 18) {
         alert("Su edad de " + edad + " años está aprobada para votar.");
-    } else if (edad > 0 && edad < 18) { // && Compuerta AND
+    } else if (edad > 0 && edad < 18) { // && AND
         alert("Su edad de " + edad + " años no está aprobada para votar.");
     } else {
         alert("Ingrese un valor válido.");
@@ -23,7 +23,7 @@ function edadVotar() {
 /* Contraseña válida
  Pide una contraseña con prompt().
  Si es igual a "1234", muestra un mensaje de acceso permitido. 
- En caso contrario, muestra acceso denegado. */
+ De no ser así, niega el acceso. */
 
 function validarContrasena() {
     // Contraseña
@@ -41,15 +41,15 @@ function validarContrasena() {
 // Ejercicio 3
 /* Verificar par o impar
  Pide un número por prompt().
- Evalúa si el número es par o impar y muestra el resultado con alert(). */
+ Comprueba si el número es par o impar y lo imprime (console.log) */
 
 function verificarParImpar() {
-    // input conversión string a número
+    // Conversión string a número
     let num = parseInt(prompt("Ingrese un número: "));
     // Condición IF - ELSE IF - ELSE
     if (num % 2 == 0) {
         alert("El número es par");
-    } else if ( num > 0) { // || Compuerta OR
+    } else if ( num > 0) { // OR
         alert("El número es impar");
     } else {
         alert("Ingrese un valor numérico válido");
@@ -59,11 +59,12 @@ function verificarParImpar() {
 // Ejercicio 4
 /* Temperatura ambiental
  Solicita la temperatura actual. 
- Si es mayor o igual a 30, muestra “Hace calor”,
- de lo contrario muestra “Clima agradable”. */
+ Mayor o igual a 30 = mostrará “Hace calor”,
+ De no ser así mostrará = “Clima agradable”,
+ De no ser ninguna de las anteriores con temperatura menor a 15 mostrará= "Hace frío". */
 
 function medirTemperatura() {
-    // Input conversión string a número
+    // Conversión string a número
     let temperatura = parseInt(prompt("Ingrese la temperatura: "));
     // Condición IF - ELSE IF - ELSE IF - ELSE
     if (temperatura >= 30) {
@@ -79,8 +80,8 @@ function medirTemperatura() {
 
 // Ejercicio 5
 /* Comparar dos números
- Solicita dos números al usuario. 
- Compara ambos y muestra cuál es mayor o si son iguales. */
+ Pide dos números al usuario. 
+ Compara ambos y muestra si uno es mayor o si son iguales. */
 
 function compararNumeros() {
     // Input conversión string a número
@@ -102,10 +103,10 @@ function compararNumeros() {
 // Ejercicio 6
 /* Calificación escolar
  Pide una nota entre 1 y 7. 
- Si es 4 o más, muestra “Aprobado”, si es menor, muestra “Reprobado”. */
+ Si es 4 o más, mostrará “Aprobado”, si es menor, mostrará “Reprobado”. */
 
 function aprobarCalificacion() {
-    // Input conversión string a número
+    // Conversión string a número
     let nota = parseInt(prompt("Ingrese su nota: "));
     // Condición IF - ELSE IF - ELSE
     if (nota >= 4 && nota <= 7) {
@@ -120,8 +121,8 @@ function aprobarCalificacion() {
 // Ejercicio 7
 /* Nombre de usuario válido
  Pide un nombre de usuario. 
- Si el valor ingresado es "admin", muestra “Bienvenido, administrador”. 
- Si no, muestra “Usuario no reconocido”. */
+ Si el valor ingresado es "admin", muestra mensaje de bienvenida “Bienvenido, administrador”. 
+ Si no, mostrará “Usuario no reconocido”. */
 
 function verificarUsername() {
     // Username
@@ -139,7 +140,7 @@ function verificarUsername() {
 // Ejercicio 8
 /* Verificar si una palabra empieza con "A"
  Pide una palabra al usuario. 
- Verifica si empieza con la letra “A” mayúscula y muestra un mensaje acorde. */
+ Verifica si empieza con la letra “A” MAYÚSCULA (importante) y mostrará mensaje acorde. */
 
 function letraMayuscula() {
     // Input string
